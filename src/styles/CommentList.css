@@ -1,0 +1,57 @@
+.comment-list {
+  position: absolute;
+  top: 10px;
+  right: 10%;
+  width: 30vw;
+}
+
+.comment-list h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.comment-list ul {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.comment-list li {
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.comment-list button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 5px 10px;
+  transition: .3s;
+}
+
+.comment-list button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
+
+.comment-list form label {
+  font-size: 1.6rem;
+  margin: 0 auto;
+
+}
+
+.comment-list form input {
+  display: block;
+  padding: 5px 10px;
+  margin: 5px auto;
+}
+
+.comment-list form label:nth-child(1) {
+  border-top: 1px solid #000;
+}
